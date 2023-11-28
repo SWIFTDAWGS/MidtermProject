@@ -1,14 +1,15 @@
 # MidtermProject
-Simple Machine Learning Project
-This is a simple machine learning project that demonstrates a basic workflow for a binary classification task using the Iris dataset.
+This is a midterm machine learning project that demonstrates a basic workflow for a binary classification task using the Iris dataset.
 
-Project Structure
+## Project Structure
+
+```plaintext
 /MidtermProject
     ├── data/
     │   └── iris.csv
     ├── models/
     ├── src/
-    │   ├── init.py
+    │   ├── __init__.py
     │   ├── train_model.py
     │   └── predict.py
     ├── requirements.txt
@@ -16,14 +17,13 @@ Project Structure
     └── main.py
 
 Getting Started
-
-    Clone the repository:
-
-    bash
+(1)
+Clone the repository:
+bash
 
 git clone https://github.com/SWIFTDAWGS/MidtermProject
 cd MidtermProject
-
+(2)
 Install the required dependencies:
 
 bash
@@ -31,7 +31,7 @@ bash
     pip install -r requirements.txt
 
     Download the Iris dataset and save it in the data directory.
-
+(3)
 Training the Model
 
 To train the machine learning model, run the following command:
@@ -41,7 +41,8 @@ bash
 python src/train_model.py
 
 The trained model will be saved in the models directory.
-Making Predictions
+
+(4)Making Predictions
 
 To make predictions using the trained model, run the following command:
 
