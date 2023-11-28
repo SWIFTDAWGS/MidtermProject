@@ -1,5 +1,3 @@
-import sys
-sys.path.append("src")
 from src.predict import predict
 
 if __name__ == 'main':
