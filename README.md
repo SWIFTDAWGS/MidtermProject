@@ -11,10 +11,12 @@ This is a midterm machine learning project that demonstrates a basic workflow fo
     ├── src/
     │   ├── __init__.py
     │   ├── train_model.py
-    │   └── predict.py
+    │   ├── predict.py
+    │   └── test.py
     ├── requirements.txt
     ├── README.md
-    └── main.py
+    ├── main.py
+    └── pyproject.toml
 
 Getting Started
 (1)
