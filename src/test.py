@@ -1,7 +1,7 @@
 import sys
 from src.predict import predict
 
-if __name__ == 'main':
+if __name__ == '__main__':
     # Example input data for prediction
     test_data = [[5.1, 3.5, 1.4, 0.2], [6.2, 3.4, 5.4, 2.3]]
 
