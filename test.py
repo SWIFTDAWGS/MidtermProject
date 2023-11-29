@@ -1,4 +1,4 @@
-from src.predict import predict
+from predict import predict
 
 if __name__ == 'main':
     # Example input data for prediction
