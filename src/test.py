@@ -1,3 +1,4 @@
+import sys
 from src.predict import predict
 
 if __name__ == 'main':
@@ -10,3 +11,5 @@ if __name__ == 'main':
     # Print predictions
     for i, pred in enumerate(predictions):
         print(f'Prediction for example {i + 1}: {pred}')
+
+print(sys.path)
